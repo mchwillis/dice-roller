@@ -64,7 +64,7 @@ How many sides does your die have?
 How many dice do you want to roll?
 5
 What is your modifier?
-4
+0
 What is your threshold for success or crit?
 3
 Rolling 5 D6 + 0...
