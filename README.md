@@ -7,6 +7,7 @@ This was a personal project to help me better understand Python. Enjoy!
 # Usage
 The text will  first ask what game you are playing. You have the option to input `D&D`,`PF`, or `SR`, for Dungeons and Dragons, Pathfinder, and Shadowrun, respectively.
 `What game are you playing [D&D/PF/SR]?`
+
 This will determine the message displayed when a roll exceeds the threshold. This will be explained later. You are able to input whatever you would like, but if your input does not match one of the available options, you will receive the default response when the threshold is exceeded.
 
 The text will then ask if you would like to roll the dice. 
