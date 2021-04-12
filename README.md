@@ -35,18 +35,20 @@ Other/Default `Cream of the crop!`
 
 Once your dice have been rolled, you will be given the option to reroll your dice. This will allow you to roll with the same number, sides, and modifier that was previously input to avoid having to input the same data multiple times in succession.
 
-The example below is rolling 5 D6 with a modifier of 0 and threshold of 3:
+The example below is rolling 9 D6 with a modifier of 0 and threshold of 5:
 
 ```
-Rolling 5 D6 + 0...
-2
-2
-2
-5
-Success!
+Rolling 9 D6 + 0...
+5 Success!
+3
 4
-Success!
-Total: 15
+3
+3
+3
+3
+4
+1
+Total: 29
 Would you like to reroll your dice [y/n]?
 ```
 
@@ -62,23 +64,25 @@ Yes, sire
 How many sides does your die have?
 6
 How many dice do you want to roll?
-5
+9
 What is your modifier?
 0
 What is your threshold for success or crit?
-3
-Rolling 5 D6 + 0...
-2
-2
-2
 5
-Success!
+Rolling 9 D6 + 0...
+5 Success!
+3
 4
-Success!
-Total: 15
+3
+3
+3
+3
+4
+1
+Total: 29
 Would you like to reroll your dice [y/n]?
 n
 Would you like to roll the dice [Yes, sire/Nay]?
-nay
+Nay
 Until we roll again, friend...
 ```
