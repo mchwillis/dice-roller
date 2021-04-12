@@ -1,26 +1,27 @@
 import random
 
-#Dice roll function
+#Roll function and crit response
 def roll(dice, sides, mod):
     print('Rolling ' + str(dice) + ' D' + str(sides) + ' + ' + str(mod) + '...')
     count = 0
     total = 0
     while count < dice:
         die = random.randint(1, sides)
-        print(die)
         if die >= thresh and game.lower() == 'dnd' or die >= thresh and game.lower() == 'd&d':
-            print('Crit!')
+            print(die,'Crit!')
         elif die >= thresh and game.lower() == 'pf':
-            print('Critical threat!')
+            print(die,'Critical threat!')
         elif die >= thresh and game.lower() == 'sr':
-            print('Success!')
+            print(die,'Success!')
         elif die >= thresh and game.lower() !='dnd' or die >= thresh and game.lower() !='d&d' or die >= thresh and game.lower() !='pf' or die >= thresh and game.lower() !='sr':
-            print('Cream of the crop!')
+            print(die,'Cream of the crop!')
+        else:    
+            print(die)
         count = count + 1
         total = total + die
     totmod = total + mod
     print("Total:",(totmod)) 
-    
+
 game = input('What game are you playing [D&D/PF/SR]?\n')
 question = input ('Would you like to roll the dice [Yes, sire/Nay]?\n')
 while question.lower() != 'nay':
@@ -66,5 +67,3 @@ while question.lower() != 'nay':
             print ('Invalid response. Please type "Yes, sire" or "Nay".')
         question = input ('Would you like to roll the dice [Yes, sire/Nay]?\n')
 print('Until we roll again, friend...')
-
-
