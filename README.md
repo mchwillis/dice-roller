@@ -17,11 +17,17 @@ You may respond with either `Yes, sire ` or `Nay`
 
 You will then be asked `How many sides does your die have?`
 
-Please resond with a number. If input is a string, you will receive an error and will need to run the script again.
+Please resond with an integer. If input is a string or float, you will receive an error and will be asked for a whole number.
+```
+How many sides does your die have?
+k
+That's not a whole number, silly!
+How many sides does your die have?
+```
 
 The following three questions will be asked: `How many dice do you want to roll?`,`What is your modifier?`, and `What is your threshold for success or crit?`
 
-Answer these questions with a digit as well.
+Answer these questions with an integer as well.
 
 If the number rolled exceeds the threshold, you will receive the sucess response. Success responses are provided below.
 
